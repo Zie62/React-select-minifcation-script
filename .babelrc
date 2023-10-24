@@ -1,4 +1,5 @@
 {
+    //@emotion is a sub-dependency of react-select hence it's plugin being included.
     "presets": ["@babel/preset-react", "@babel/preset-env", "@emotion"],
     "plugins": ["@babel/plugin-transform-runtime"]
 }
